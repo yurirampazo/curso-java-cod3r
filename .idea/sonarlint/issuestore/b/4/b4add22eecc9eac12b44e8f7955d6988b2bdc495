@@ -1,0 +1,21 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(Ë¹ß
+E
+java:S3740"/Provide the parametrized type for this generic.(Ë¹ß
+S	java:S106"9Replace this use of System.out or System.err by a logger.(®òŒÕıÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(”ùûÊûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ùï‹Úÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¥£®€
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¶‹¤¼ûÿÿÿÿ
+>
+java:S2201"(The return value of "size" must be used.(ä€
+A
+java:S2201"+The return value of "isEmpty" must be used.(Ëóì“
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(ş©¡Ğûÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(•ĞÊøıÿÿÿÿ
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(•ĞÊøıÿÿÿÿ8¢ÎÖì0
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(•ĞÊøıÿÿÿÿ8£ÎÖì0
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(•ĞÊøıÿÿÿÿ8äßÖì0
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(•ĞÊøıÿÿÿÿ8¼¶×ì0
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(•ĞÊøıÿÿÿÿ8½¶×ì0

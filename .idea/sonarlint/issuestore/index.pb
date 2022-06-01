@@ -27,3 +27,11 @@ M
 src/poo/composicao/Motor.java,4\8\4828a38966f41bfebdb47b23ac127346779a3767
 M
 src/poo/composicao/Carro.java,b\5\b5849571383faaa131ab447265ddf49be441b7b4
+O
+src/desafios/DesafioMaster.java,a\3\a3d1eb9244e47c07dcee18c237c8a82933ca8a0a
+S
+#src/poo/composicao/CompraTeste.java,a\e\aec9d0fb35e34b47a2bb4b4bb316321fdb15e549
+N
+src/poo/composicao/Compra.java,8\1\81396cac57bb3a655c29ea7bfa7ac9aa0900c282
+L
+src/poo/composicao/Item.java,b\4\b4b066bb957c64429f4c91dc428c52b5e401c3d5

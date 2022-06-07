@@ -29,9 +29,15 @@ M
 src/poo/composicao/Carro.java,b\5\b5849571383faaa131ab447265ddf49be441b7b4
 O
 src/desafios/DesafioMaster.java,a\3\a3d1eb9244e47c07dcee18c237c8a82933ca8a0a
-S
-#src/poo/composicao/CompraTeste.java,a\e\aec9d0fb35e34b47a2bb4b4bb316321fdb15e549
-N
-src/poo/composicao/Compra.java,8\1\81396cac57bb3a655c29ea7bfa7ac9aa0900c282
 L
 src/poo/composicao/Item.java,b\4\b4b066bb957c64429f4c91dc428c52b5e401c3d5
+M
+src/poo/composicao/Curso.java,a\3\a39be641a5579a4abbdbe4480014a0415234d199
+M
+src/poo/composicao/Aluno.java,c\5\c50d3b3aa9f1d105c5976645399a551b43b6276c
+N
+src/poo/composicao/Compra.java,8\1\81396cac57bb3a655c29ea7bfa7ac9aa0900c282
+S
+#src/poo/composicao/CompraTeste.java,a\e\aec9d0fb35e34b47a2bb4b4bb316321fdb15e549
+R
+"src/poo/composicao/CursoTeste.java,6\1\613fd611813dc56992118192dc0bf1674cdb5812

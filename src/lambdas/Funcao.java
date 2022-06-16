@@ -23,6 +23,6 @@ public class Funcao {
           v ->  v + "?$#&@";
 
     System.out.println(parOuImpar.andThen(resultado).andThen(empolgado).andThen(what).apply(33));
-    
+
   }
 }

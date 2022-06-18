@@ -17,7 +17,7 @@ public class Desafio {
      * 2. Imposto Municipal: >= 2500 (8,5%) / < 2500 (Insento)
      * 3. Frete: >= 3000 (Grátis) / < 3000 (100)
      * 4. Arredondar: Deixar duas casas decimais
-     * 5. Formatar: R$ 1234,56
+     * 5. Formatar: R$ 1234,56w
      * */
 
     Function<Produto, Double> precoReal = x -> x.preco  * (1 - x.desconto);

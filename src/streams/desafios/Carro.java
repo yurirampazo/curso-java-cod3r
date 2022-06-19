@@ -2,7 +2,7 @@ package streams.desafios;
 
 import java.util.Comparator;
 
-public class Carro  implements Comparator<Carro> {
+public class Carro {
   String nome;
   Double cavaloVapor;
   Double velocidadeMaxima;
@@ -19,11 +19,6 @@ public class Carro  implements Comparator<Carro> {
 
   public Double getVelocidadeMaxima() {
     return velocidadeMaxima;
-  }
-
-  @Override
-  public int compare(Carro o1, Carro o2) {
-    return o1.getVelocidadeMaxima().compareTo(o2.velocidadeMaxima);
   }
 
   @Override

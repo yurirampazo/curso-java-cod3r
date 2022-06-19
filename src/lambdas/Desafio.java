@@ -28,6 +28,5 @@ public class Desafio {
 
     String precoFinal = precoReal.andThen(imposto).andThen(frete).andThen(arredondar).andThen(formatar).apply(p1);
     System.out.println("O preço final é " + precoFinal);
-
   }
 }

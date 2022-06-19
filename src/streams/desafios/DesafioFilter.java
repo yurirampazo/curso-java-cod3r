@@ -12,7 +12,7 @@ public class DesafioFilter {
     *
     * */
 
-    Carro c1= new Carro("Buggatti Veyron", 1.001, 431.5);
+    Carro c1= new Carro("Buggatti Veyron", 1001.0, 431.5);
     Carro c2= new Carro("Skyline", 573.5, 250.5);
     Carro c3= new Carro("Dodge Charger", 716.4, 270.5);
     Carro c4= new Carro("Bugatti Chiron", 1600.0, 490.5);
@@ -29,7 +29,7 @@ public class DesafioFilter {
 
     Carro carroMaisRapido = new Carro();
     for (Carro carro : carros) {
-      carroMaisRapido = (carro.getVelocidadeMaxima() > carroMaisRapido.getVelocidadeMaxima()) ? carro : carroMaisRapido;
+      carroMaisRapido = carro.getVelocidadeMaxima() > carroMaisRapido.getVelocidadeMaxima() ? carro : carroMaisRapido;
     }
 
     System.out.println("O carro mais rápido do mundo é: \n" + carroMaisRapido);

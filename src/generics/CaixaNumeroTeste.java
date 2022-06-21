@@ -17,5 +17,10 @@ public class CaixaNumeroTeste {
     CaixaNumero<Float> caixaD = new CaixaNumero<>();
     caixaD.setCoisa(12F);
     System.out.println(caixaD.getCoisa());
+
+    short a = 1;
+    CaixaNumero<Short> caixaE = new CaixaNumero<>();
+    caixaE.setCoisa(a);
+    System.out.println(caixaE.getCoisa());
   }
 }

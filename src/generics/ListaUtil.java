@@ -11,5 +11,9 @@ public class ListaUtil {
     return lista.get(lista.size() -1);
   }
 
+  public static <A, B, C> C teste(A paramA, B paramB) {
+    C teste = null;
+    return teste;
+  }
 
 }

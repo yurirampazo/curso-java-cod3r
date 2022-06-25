@@ -1,11 +1,11 @@
 package generics;
 
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Optional;
 import java.util.Set;
 
 public class Pares<K extends Number, V> {
-  private final Set<Par<K,V>> items = new HashSet<>();
+  private final Set<Par<K,V>> items = new LinkedHashSet<>();  // LinkedHashSet Garante Ordenação pela ordem de inclusão.
 
   public void adicionar(K key, V value) {
     if (key == null) return;

@@ -9,7 +9,7 @@ public class TesteConexao {
 
 //    final String stringDeConexao = "jdbc:mysql://localhost/3307";  // Por padrão o mysql utiliza porta 3306
 //    String url = "jdbc:mysql://localhost";
-    String url = "jdbc:mysql://localhost:3306?VerifyServerCertificate=false&useSSL=false";
+    String url = "jdbc:mysql://localhost:3306?VerifyServerCertificate=false&useSSL=true";
 
     final String usuario = "yuri";
     final String senha = "123456";

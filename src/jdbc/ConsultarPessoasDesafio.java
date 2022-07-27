@@ -14,13 +14,15 @@ public class ConsultarPessoasDesafio {
     Scanner sc = new Scanner(System.in);
 
     Connection connection = FabricaConexao.getConnection();
-    String sql = "SEKECT * FROM pessoas WHERE nome LIKE ?";
+    String sql = "SELECT * FROM pessoas WHERE nome LIKE ?";
 
     System.out.println("Informe o valor para pesquisa: ");
-    String nome = sc.nextLine();
+    String valor = sc.nextLine();
 
+    //Usamos "% para indicar partes de uma string, que queremos retornar,
+    // Ex: buscar pessoas que contenham %ri% no nome retornará Yuri, Ariana, Mariana, etc."
     PreparedStatement stmt = connection.prepareStatement(sql);
-    stmt.setString(1,"%" + nome  + "%");
+    stmt.setString(1,"%" + valor  + "%");
 
     ResultSet resultQuery = stmt.executeQuery();
 
@@ -35,5 +37,7 @@ public class ConsultarPessoasDesafio {
     pessoas.forEach(x -> System.out.println(x.getCodigo() + " => " + x.getNome()));
 
     sc.close();
+    connection.close();
+    stmt.close();
   }
 }

@@ -24,7 +24,6 @@ public class ClasseAnonima {
     contas.add(c3);
     contas.add(c4);
 
-
     System.out.println("\nComparator Número da Conta: ");
     contas.sort(new Comparator<Conta>() {
         @Override

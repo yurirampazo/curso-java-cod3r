@@ -19,6 +19,8 @@ public class TesteReaderAndWriter {
 
     bw.write("{");
     bw.newLine();
+    bw.write("  \"cpfs\": [");
+    bw.newLine();
 
     Set<String> cpfs = new HashSet<>();
     String line = br.readLine();
@@ -27,18 +29,15 @@ public class TesteReaderAndWriter {
       cpfs.add(line);
       line = br.readLine();
     }
-    List<String> cpfsList = cpfs.stream().map(x -> "  \"" + x + "\",").collect(Collectors.toList());
+    List<String> cpfsList = cpfs.stream().map(x -> "    \"" + x + "\",").collect(Collectors.toList());
 
     try {
       int size = cpfsList.size() - 1;
-      String lastCpf = cpfsList.get(size).replace(",", " ");
+      String lastCpf = cpfsList.get(size).replace(",", "");
       cpfsList.remove(size);
       cpfsList.add(lastCpf);
     } catch (IndexOutOfBoundsException e) {
       throw new RuntimeException(e.getMessage());
-    } finally {
-      bw.close();
-      br.close();
     }
 
     cpfsList.forEach(x -> {
@@ -49,7 +48,7 @@ public class TesteReaderAndWriter {
         throw new RuntimeException(e);
       }
     });
-    bw.write("}");
+    bw.write("  ]\n}");
 
     br.close();
     bw.close();
